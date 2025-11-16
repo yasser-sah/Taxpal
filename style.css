@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 60px;
+}
+
+.Taxpal {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1e40ff;
+}
+.Taxpal span {
+  color: black;
+}
+
+nav a {
+  margin: 15px;
+  text-decoration: none;
+  color: #374151;
+  font-size: 16px;
+}
+
+.buttons a {
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.sign-in {
+  color: #374151;
+}
+
+.get-started {
+  background-color: #1e40ff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+.main {
+  background-color: white;
+  font-family: "Inter", sans-serif;
+  padding: 100px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.madesimple span {
+  color: #1e40ff;
+}
+.p {
+  color: #374151;
+  font-size: none;
+}
+.buttons{
+  margin-top: 30px;
+  font-size: 16px;
+  padding: 20px;
+}
+.get-free {
+  background-color:black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+.watch-video {
+  background-color: white;
+  color:  #374151;
+  padding:10px 20px;
+  border-radius:30px;
+}
+.footer{
+ background-color: white;
+  text-align: center;
+  padding: 0px;
+  font-size: 14px;
+  color: black;
+}
+.p{
+  color: black;
+  text-align: center;
+
+}
+.icons {
+  display: flex;
+  justify-content:space-evenly;
+  margin-top: 50px;
+  font-size: 40px;
+  text-align: center;
+  color: #333;
+}
+
+@media (max-width: 1024px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 30px;
+  }
+}
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+  nav a {
+    margin: 0 8px;
+  }
+  main {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+  .buttons {
+    flex-direction: column;
+  }
+
+}
