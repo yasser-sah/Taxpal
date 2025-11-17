@@ -70,10 +70,15 @@ nav a {
   border-radius: 30px;
 }
 .watch-video {
-  background-color: white;
-  color:  #374151;
+  background-color:rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
   padding:10px 20px;
   border-radius:30px;
+
+}
+.buttons :hover{
+  background-color: #1e40ff;
+transition-duration: 3s;
 }
 .footer{
  background-color: white;
