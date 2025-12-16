@@ -3,17 +3,18 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-header {
+
+header { 
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 30px 60px;
 }
 
-.Taxpal {
-  font-size: 24px;
-  font-weight: bold;
-  color: #1e40ff;
+.Taxpal svg {
+  width: 120px;
+  height: auto;
+  fill: #1e40ff;
 }
 .Taxpal span {
   color: black;
@@ -92,14 +93,19 @@ transition-duration: 3s;
   text-align: center;
 
 }
-.icons {
+.icons{
   display: flex;
-  justify-content:space-evenly;
+  justify-content: center; 
+  gap: 60px;               
   margin-top: 50px;
-  font-size: 40px;
-  text-align: center;
-  color: #333;
 }
+
+.icons img {
+  height: 40px;
+  opacity: 0.7;
+}
+
+
 
 @media (max-width: 1024px) {
   header {
@@ -127,3 +133,4 @@ transition-duration: 3s;
   }
 
 }
+
